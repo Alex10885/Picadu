@@ -1,4 +1,19 @@
+@font-face {
+    font-family:"SFProDisplay-Semibold";
+    src: local("SFProDisplay-Semibold"),
+    url('../fonts/SFProDisplay-Semibold.woff') format("woff"),
+    url('../fonts/SFProDisplay-Semibold.woff2') format("woff2");
+    font-weight: bold;
+}
+@font-face {
+    font-family:"SFProDisplay-Regular";
+    src: local("SFProDisplay-Regular"),
+    url('../fonts/SFProDisplay-Regular.woff') format("woff"),
+    url('../fonts/SFProDisplay-Regular.woff2') format("woff2");
+    font-weight: normal;
+}
 * {
+    font-family: 'SFProDisplay-Regular', sans-serif;
     box-sizing: border-box;
 }
 .header {
@@ -102,6 +117,7 @@ body{
     padding-bottom: 0;
 }
 .post-title{
+    font-family: "SFProDisplay-Semibold", sans-serif;
     margin-top: 0;
     margin-bottom: 19px;
     font-weight: 600;
@@ -199,9 +215,9 @@ body{
     margin-right: 17px;
 }
 .user-name{
+    font-family: "SFProDisplay-Semibold", sans-serif;
     color: #595959;
     font-style: normal;
-    font-weight: 600;
     font-size: 16px;
     line-height: 24px;
 }
@@ -276,9 +292,8 @@ body{
     padding: 23px 25px;
 }
 .cart-title{
+    font-family: "SFProDisplay-Semibold", sans-serif;
     margin: 0;
-    font-style: normal;
-    font-weight: 600;
     font-size: 16px;
     line-height: 24px;
     color: #595959;
@@ -289,8 +304,7 @@ body{
 .cart-body-title{
     margin: 0 0 10px;
     text-decoration: none;
-    font-style: normal;
-    font-weight: 600;
+    font-family: "SFProDisplay-Semibold", sans-serif;
     font-size: 16px;
     line-height: 24px;
     color: #D48806;
